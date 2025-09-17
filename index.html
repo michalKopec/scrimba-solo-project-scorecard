@@ -4,22 +4,18 @@
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="card">
                 <h3>HOME</h3>
-                <div class="score-box">
-                  <span id="home-score" class="score">0</span> 
-                </div>
+                <div id="home-score" class="score">0</div> 
                 <div class="button-row">
                     <button class="btn" onclick="updateScore('home', 1)">+1</button>
                     <button class="btn" onclick="updateScore('home', 2)">+2</button>
                     <button class="btn" onclick="updateScore('home', 3)">+3</button>
                 </div>
             </div>
-            <div>
+            <div class="card">
                <h3>GUEST</h3>
-                <div class="score-box">
-                  <span id="guest-score" class="score">0</span> 
-                </div>
+                <div id="guest-score" class="score">0</div> 
                 <div class="button-row">
                     <button class="btn" onclick="updateScore('guest', 3)">+1</button>
                     <button class="btn" onclick="updateScore('guest', 3)">+2</button>
