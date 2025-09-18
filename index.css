@@ -53,6 +53,12 @@ h3 {
     border: 2px white solid; 
 }
 
+#btn-reset {
+    height: fit-content;
+    padding: 8px 20px;
+    margin-top: 170px; 
+}
+
 @font-face {
     font-family: 'scoreboard';
     src: url('font/CursedTimerUlil-Aznm.ttf') format('truetype');
