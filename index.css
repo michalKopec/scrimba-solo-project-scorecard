@@ -1,18 +1,12 @@
 body {
-    margin: 0;
-    background-color: #1B244A;
-    text-align: center;
+    background-color: #1B244A; 
 }
 
-.card {
-    width: 200px;
-}
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5rem;
-    line-height: 2rem;
-    color: #EEEEEE 
+    font-size: 40px;
+    color: #EEEEEE; 
 }
 
 .container {
@@ -20,36 +14,48 @@ h3 {
     justify-content: space-around;
 }
 
+.card {
+    border: 1px blue solid; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 .score {
-    font-family: 'Cursed Timer ULiL', Arial, sans-serif;
-    font-size: 90px;
-    color: red;
+    width: 105px; 
+    text-align: center;
+    font-family: 'scoreboard', Arial, sans-serif;
+    font-size: 90px; 
     background-color: black;
-    padding: 20px 40px; 
-
+    color: #F94F6D;
+    padding: 20px 20px; 
 }
 
 .button-row {
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
-    gap: 10px; 
-    margin-top: 20px; 
+    justify-content: space-between;
+    width: 155px;
 }
 
 .btn {
-    border-radius: 4px;
-    padding: 10px; 
+    font-family: 'scoreboard', Arial, sans-serif;
+    font-size: 18px; 
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px #9AABD8 solid; 
+    color: #9AABD8; 
     background-color: transparent;
-    color: #9AABD8;
-    border: 1px solid #9AABD8;
-    font-family: 'Cursed Timer ULiL', Arial, sans-serif;
+}
 
+.btn:hover {
+    border: 2px white solid; 
 }
 
 @font-face {
-  font-family: 'Cursed Timer ULiL';
-  src: url('font/CursedTimerUlil-Aznm.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'scoreboard';
+    src: url('font/CursedTimerUlil-Aznm.ttf') format('truetype');
 }
+
+
